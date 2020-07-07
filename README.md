@@ -1,6 +1,6 @@
 **MLCBH**: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost: Fragmentation, Error-cancellation, and Machine Learning
 =======
-*Under review* [https://doi.org]
+*Just accepted 2020* [https://doi.org]
 
 MLCBH is a set of generalized molecular descriptors for machine learning based on solely on the connectivity of the molecule. These representations are derived from the fragmentation scheme of the Connectivity Based Hierarchy (CBH) [https://doi.org/10.1021/ct200279q] of generalized isodemic reactions. 
 
