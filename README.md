@@ -25,7 +25,7 @@ This repository provides scripts to generate the representation and define ML mo
 
 - `python3`
 - `numpy`
-- `fragreact` a Python package for the fragmentation and generation of the generalized isodesmic reactions. [https://github.com/jensengroup/fragreact]
+- `fragreact` a Python package for the fragmentation and generation of the generalized isodesmic reactions [https://github.com/jensengroup/fragreact]
 
 `network/MLPRegressor.py` is a python script defining the MLCBH-2 model used in this study and requires:
 
