@@ -1,19 +1,23 @@
-*ML-CBH*
-[![DOI](doi.org)](doi.org)
+MLCBH: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost: Fragmentation, Error-cancellation, and Machine Learning
+=======
+[https://doi.org]
 
-Reference data and source code for 
+MLCBH is a set of generalized molecular descriptors for machine learning based on solely on the connectivity of the molecule. These representations are derived from the fragmentation scheme of the Connectivity Based Hierarchy (CBH) [https://doi.org/10.1021/ct200279q] of generalized isodemic reactions. 
+
+This repository provides scripts to generate the representation and define ML model along with the **1k-G4-C9** dataset used in the MLCBH paper, which is comprised of G4 calculated ∆Hf(298K) of 1051 experimentally stable organic molecules with 9 or fewer carbon atoms.
 
 
-[![MLCBH](resources/MLCBH_TOC.tif)]
+*Authors:* 
+- Eric M. Collins (Indiana University) colliner@iu.edu
+- Krishnan Raghavachari (Indiana University) kraghava@iu.edu
+
+
+![MLCBH](resources/MLCBH_TOC.png)
 
 
 # Installation
 
 `git clone https://github.com/colliner/MLCBH`
-
-# Instructions
-
-- 
 
 ## Requirements
 
@@ -26,4 +30,6 @@ Reference data and source code for
 `network/MLPRegressor.py` is a python script defining the MLCBH-2 model used in this study and requires:
 
 - `python3`
-- `scikit-learn` [https://scikit-learn.org/stable/install.html]
+- `scikit-learn` a free machine learning library for the Python [https://scikit-learn.org/stable/install.html]
+- `numpy`
+- `scipy`
