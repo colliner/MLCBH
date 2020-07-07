@@ -1,4 +1,4 @@
-MLCBH: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost: Fragmentation, Error-cancellation, and Machine Learning
+**MLCBH**: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost: Fragmentation, Error-cancellation, and Machine Learning
 =======
 *Under review* [https://doi.org]
 
