@@ -1,8 +1,9 @@
-MLCBH: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost: Fragmentation, Error-cancellation, and Machine Learning
+MLCBH: Effective Molecular Descriptors for Chemical Accuracy at DFT Cost
+
 =======
 *Just accepted 2020* [https://doi.org]
 
-MLCBH is a set of generalized molecular descriptors for machine learning based on solely on the connectivity of the molecule. These representations are derived from the fragmentation scheme of the Connectivity Based Hierarchy (CBH) [https://doi.org/10.1021/ct200279q] of generalized isodemic reactions. 
+MLCBH is a set of generalized molecular descriptors for machine learning combining ideas *fragmentation, error-cancellation, and machine learning.* These representations can be derived solely on the connectivity of the molecule using the fragmentation scheme of the Connectivity Based Hierarchy (CBH) [https://doi.org/10.1021/ct200279q] of generalized isodemic reactions. 
 
 This repository provides scripts to generate the representation and define ML model along with the **1k-G4-C9** dataset used in the MLCBH paper, which is comprised of G4 calculated ∆Hf(298K) of 1051 experimentally stable organic molecules with 9 or fewer carbon atoms.
 
@@ -11,9 +12,16 @@ This repository provides scripts to generate the representation and define ML mo
 - Eric M. Collins (Indiana University) colliner@iu.edu
 - Krishnan Raghavachari (Indiana University) kraghava@iu.edu
 
-
 ![MLCBH](resources/MLCBH_TOC.png)
 
+### Performance of DFT+∆ML(CBH-2) models on full 1k-G4-C9
+
+| Baseline  <br /> (DFT)   | Property | MAE <br />(kcal/mol)  |
+|--------------|----------|----------|
+| B3LYP        | ∆Hf(298K)|     0.59 |
+| B3LYP-D3(BJ) | ∆Hf(298K)|     0.36 |
+| ωB97X-D      | ∆Hf(298K)|     0.40 |
+| B2PLYP-D3(BJ)| ∆Hf(298K)|     0.43 |
 
 # Installation
 
