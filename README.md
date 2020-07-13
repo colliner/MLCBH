@@ -11,7 +11,7 @@ This repository provides scripts to generate the representation and define ML mo
 - Eric M. Collins (Indiana University) colliner@iu.edu
 - Krishnan Raghavachari (Indiana University) kraghava@iu.edu
 
-![MLCBH](resources/MLCBH_TOC.png)
+![MLCBH](resources/MLCBH_cover.png)
 
 ### Performance of DFT+∆ML(CBH-2) models on full 1k-G4-C9
 
