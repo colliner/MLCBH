@@ -11,7 +11,8 @@ This repository provides scripts to generate the representation and define ML mo
 - Eric M. Collins (Indiana University) colliner@iu.edu
 - Krishnan Raghavachari (Indiana University) kraghava@iu.edu
 
-![MLCBH](resources/MLCBH_cover.png)
+<img src="resources/MLCBH_cover.png" alt="MLCBH" width="700"/>
+
 
 ### Performance of DFT+∆ML(CBH-2) models on full 1k-G4-C9
 
@@ -20,11 +21,37 @@ This repository provides scripts to generate the representation and define ML mo
 | B3LYP        | ∆Hf(298K)|     0.59 |
 | B3LYP-D3(BJ) | ∆Hf(298K)|     0.36 |
 | ωB97X-D      | ∆Hf(298K)|     0.40 |
-| B2PLYP-D3(BJ)| ∆Hf(298K)|     0.43 |
+| B2PLYP-D3(BJ)| ∆Hf(298K)|     0.43 | 
 
-# Installation
+### DFT+∆ML(CBH-2) Learning Curves
 
-`git clone https://github.com/colliner/MLCBH`
+<table>
+ <tr>
+   <td><div align="center"><img src="resources/B3LYP_learning_curve.png" alt="best_models" width="500"/></div></td>
+    <td><div align="center"><img src="resources/B3LYP-D3_learning_curve.png" alt="best_models" width="500"/></div></td>
+ </tr>
+ <tr>
+   <td><div align="center"><img src="resources/wB97XD_learning_curve.png" alt="best_models" width="500"/></div></td>
+    <td><div align="center"><img src="resources/B2PLYP-D3_learning_curve.png" alt="best_models" width="500"/></div></td>
+  </tr>
+</table>
+
+
+# Installation & Usage
+
+```bash
+git clone https://github.com/colliner/MLCBH
+```
+
+To generate MLCBH1 and MLCBH2 input data for the 1k-C9-G4 dataset, run:
+
+```bash
+cd MLCBH/smiles2cbh
+python3 smiles2cbh.py
+```
+
+data will be stored in MLCBH/data
+
 
 ## Requirements
 
