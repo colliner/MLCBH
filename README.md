@@ -40,7 +40,7 @@ This repository provides scripts to generate the representation and define ML mo
 # Installation & Usage
 
 ```bash
-git clone https://github.com/colliner/MLCBH
+git clone https://github.com/colliner/MLCBH.git
 ```
 
 To generate MLCBH1 and MLCBH2 input data for the 1k-C9-G4 dataset, run:
@@ -58,8 +58,7 @@ data will be stored in MLCBH/data
 `smiles2cbh/smiles2cbh.py` is a python script to generate the MLCBH input representations and requires a number of dependencies:
 
 - `python3`
-- `numpy`
-- [`fragreact`](https://github.com/jensengroup/fragreact) a Python package for the fragmentation and generation of the generalized isodesmic reactions
+- [`pyCBH`](https://github.com/colliner/pyCBH) a Python package for the fragmentation and generation of the generalized isodesmic reactions
 
 `network/MLPRegressor.py` is a python script defining the MLCBH-2 model used in this study and requires:
 
